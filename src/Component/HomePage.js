@@ -28,6 +28,9 @@ const HomePage = () => {
               <Link to={"/passions"}>
                 <Text pr={4} color={"white"} _hover={{color:"#c5c9ff", fontWeight:'bold'}} >passions</Text>
               </Link>
+              <Link to={"/passions"}>
+                <Text pr={4} color={"white"} _hover={{color:"#c5c9ff", fontWeight:'bold'}} >passions</Text>
+              </Link>
             </Flex>
             <Text fontSize={"6xl"} color={"white"} fontWeight={"bold"} fontFamily={"Playwrite"} width={500} ml={80} mt={200} className='slide'>Bienvenue sur mon Portfolio </Text>
             <Flex width={"100%"} justifyContent={"flex-end"} pr={200}>
