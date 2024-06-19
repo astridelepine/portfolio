@@ -1,0 +1,94 @@
+
+body {
+    overflow-x: hidden;
+ }
+
+.slide{
+    animation: slide 2s ;
+}
+
+@keyframes slide {
+    0% {
+        /* transform: translateX(-200px); */
+        transform: translate(-200px, 0px)
+    }
+    30%{
+        /* transform: translateY(-150px);
+        transform: translateX(-150px); */
+        transform: translate(-150px, -150px);
+    }
+    60%{
+        /* transform: translateY(150px); */
+        transform: translate(-70px, 150px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.typewriter {
+    overflow: hidden; /* Assure que le texte ne dépasse pas */
+    /* Ajoute un curseur clignotant */
+    margin: 0 auto; /* Centre le texte */
+    letter-spacing: .15em; /* Espacement entre les lettres */
+    animation: typing 4s steps(90, end), blink-caret .75s step-end infinite;
+}
+
+/* Animation de la frappe */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Animation du curseur clignotant */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+.fleurs img:hover{
+    transform: rotate(720deg);
+    background-color: "red";
+}
+
+.fleurs img{
+    transition: all 5s;
+}
+.fleurs{
+    animation: apparitionFleur 1s forwards;
+    transform: scale(0);
+}
+
+
+
+@keyframes apparitionFleur{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+        
+    }
+}
+
+
+/* .fleurs>*{
+    animation: rotationInfinie 1s infinite linear;
+    animation-play-state: paused;
+    transition: all 2s;
+}
+
+
+.fleurs>*:hover{
+    animation-play-state: running;
+}
+
+
+@keyframes rotationInfinie{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
