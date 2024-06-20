@@ -29,12 +29,12 @@ const HomePage = () => {
                 <Text pr={4} color={"white"} _hover={{color:"#c5c9ff", fontWeight:'bold'}} >passions</Text>
               </Link>
               <Link to={"/passions"}>
-                <Text pr={4} color={"white"} _hover={{color:"#c5c9ff", fontWeight:'bold'}} >passions</Text>
+                <Text pr={4} color={"white"} _hover={{color:"#ffc5ec", fontWeight:'bold'}} >conatact</Text>
               </Link>
             </Flex>
             <Text fontSize={"6xl"} color={"white"} fontWeight={"bold"} fontFamily={"Playwrite"} width={500} ml={80} mt={200} className='slide'>Bienvenue sur mon Portfolio </Text>
             <Flex width={"100%"} justifyContent={"flex-end"} pr={200}>
-              <Text color={"#ffffff"} width={400} textAlign={"left"} border={"dashed 2px"} height={"fit-content"} padding={"20px"} borderRadius={"10px"}>Saluuut, Je m'appelle Astrid et je suis étudiante en BUT informatique. Dans ce portfolio je vous fais part de mes projets et compétence informatique mais aussi de mes autres centres d'interêt !</Text>
+              <Text color={"white"} width={400} textAlign={"left"} border={"dashed 2px"} height={"fit-content"} padding={"20px"} borderRadius={"10px"}>Saluuut, Je m'appelle Astrid et je suis étudiante en BUT informatique. Dans ce portfolio je vous fais part de mes projets et compétence informatique mais aussi de mes autres centres d'interêt !</Text>
             </Flex>
             <Box width={"100%"}>
               <Fleurs/>
