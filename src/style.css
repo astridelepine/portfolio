@@ -71,6 +71,10 @@ body {
     }
 }
 
+.slider-container{
+    color: black;
+    background-color: aliceblue;
+}
 
 /* .fleurs>*{
     animation: rotationInfinie 1s infinite linear;

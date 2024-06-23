@@ -16,22 +16,27 @@ import {
 import "../style.css";
 import Rubrique from './Rubrique';
 
-const CompetenceCard= ({title, descComp, op1, op2, op3, descNiv}) => {
+const CompetenceCard= ({title, descComp, op1, op2, op3, descNiv, projets}) => {
   return (
     
-      <Flex textAlign="center" backgroundColor={"black"} p={5} flexDir={"column"} justifyContent={"center"} borderRadius={10} borderColor={'#838383'} opacity={1} borderWidth={2} role='group' _hover={{borderColor: "#c7ffc5"}}>
-        <Text fontSize={"3xl"}  pb={5}>{title}</Text>
-        <Text display={"none"} _groupHover={{display: "flex"}} fontSize={"md"}>{descComp}</Text>
+      <Flex textAlign="center" backgroundColor={"#3a3a3a"} p={5} flexDir={"column"} justifyContent={"center"} borderRadius={10} borderColor={'#838383'} opacity={1} borderWidth={2} cursor={"pointer"} mx={10} >
+        <Text fontSize={"3xl"}  pb={5} fontFamily={"Playwrite"}>{title}</Text>
+        <Text fontSize={"md"}>{descComp}</Text>
         <Box py={5}>
           <Divider orientation='horizontal' colorScheme='#1C3A48' opacity={"1"} />
         </Box>
         <Text > Mon niveau :</Text>
-        <Flex justifyContent={"space-between"} px={16} py={5}>
+        <Flex justifyContent={"space-between"} px={56} py={5}>
             <Image src={"/image/fleur11.png"} width={"30%"} opacity={op1} />
             <Image src={"/image/fleur11.png"} width={"30%"} opacity={op2}/>
             <Image src={"/image/fleur11.png"} width={"30%"} opacity={op3}/>
         </Flex>
-        <Text display={"none"} _groupHover={{display: "flex"}} >{descNiv}</Text>
+        <Text fontSize={"md"}>{descNiv}</Text>
+        <Box py={5}>
+          <Divider orientation='horizontal' colorScheme='#1C3A48' opacity={"1"} />
+        </Box>
+        <Text> Les projets associés : </Text>
+        <Text fontSize={"md"}>{projets}</Text>
       </Flex>
   );
 }

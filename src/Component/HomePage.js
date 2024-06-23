@@ -16,7 +16,7 @@ import Fleurs from './fleurs';
 const HomePage = () => {
   return (
     
-      <Box textAlign="center" fontSize="xl" backgroundColor={"black"} width={"100vw"}>
+      <Box textAlign="center" fontSize="xl" backgroundColor={"#1d1d1d"} width={"100vw"}>
         <Grid minH="100vh" p={3} >
             <Flex fontFamily={"Playwrite"} justifyContent={"flex-end"} zIndex={20}>
               <Link to={"/projets"}>
