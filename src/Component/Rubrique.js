@@ -21,7 +21,9 @@ const Rubrique = ({color, srcImage, title}) =>{
         <Flex alignItems={"center"} width={"100%"} justifyContent={"flex-start"} pl={50}>
           <Link to={"/"} >
               <Box  display={"flex"} alignItems={"center"} justifyContent={"center"} width={28} height={"fit-content"} pos={"relative"}>
-                <Image src={srcImage} />
+                <Box height={28}>
+                  <Image src={srcImage} />
+                </Box>
                 <Flex pos={"absolute"} alignItems={"center"} pb={2}>
                   <ArrowBackIcon color="black"/>
                 </Flex>

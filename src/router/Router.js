@@ -3,6 +3,7 @@ import HomePage from "../Component/HomePage";
 import Competence from "../Component/Competence";
 import Passion from "../Component/Passion";
 import Projet from "../Component/Projet";
+import Info from "../Component/Infos"
 const router = createBrowserRouter(
     [
         {
@@ -20,6 +21,10 @@ const router = createBrowserRouter(
         {
             path: "/competences",
             element: <Competence/>
+        },
+        {
+            path: "/infos",
+            element: <Info/>
         }
     ]
 )
