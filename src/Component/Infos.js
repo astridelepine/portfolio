@@ -18,8 +18,8 @@ import "../style.css";
 const Infos = () => {
   return (
     
-      <Box textColor={"white"} textAlign="center" fontSize="xl" backgroundColor={"#1d1d1d"} width={"100%"} minHeight={"100vh"} pt={20}>
-        <Rubrique srcImage={"/image/image-removebg-preview(6).png"} color={"#c5c9ff"} title={"MES INFOS"} />
+      <Box textColor={"black"} textAlign="center" fontSize="xl" backgroundColor={"#FFFFF0"} width={"100%"} minHeight={"100vh"} pt={20}>
+        <Rubrique srcImage={"/image/image-removebg-preview(6).png"} color={"#4169E1"} title={"MES INFOS"} />
         <Flex p={20} justifyContent={"center"} gap={32}>
           <Box cursor={"pointer"}>
             <a href='/CV_AstridDelepine.pdf' download={"Cv_AstridDelepine.pdf"}>   

@@ -18,8 +18,8 @@ import "../style.css";
 const Passion = () => {
   return (
     
-      <Box textColor={"white"} textAlign="center" fontSize="xl" backgroundColor={"#1d1d1d"} width={"100%"} minHeight={"100vh"} pt={20}>
-        <Rubrique srcImage={"/image/image-removebg-preview.png"} color={"#c5c9ff"} title={"MES PASSIONS"} />
+      <Box textColor={"black"} textAlign="center" fontSize="xl" backgroundColor={"#FFFFF0"} width={"100%"} minHeight={"100vh"} pt={20}>
+        <Rubrique srcImage={"/image/image-removebg-preview.png"} color={"#BD33A4"} title={"MES PASSIONS"} />
         <Flex flexDir={"column"}>
           <Text fontSize={"3xl"} fontFamily={"Playwrite"}>Mes activités</Text>
           <Flex flexDir={"column"} py={20} alignItems={"center"}>

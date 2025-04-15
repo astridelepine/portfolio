@@ -35,8 +35,8 @@ const Competence = () => {
 
   return (
     
-      <Box textAlign="center" fontSize="xl" backgroundColor={"#1d1d1d"} textColor={"white"} width={"100%"} minHeight={"100vh"} pt={20}>
-        <Rubrique title={"LES COMPÉTENCES"} color={"#c7ffc5"} srcImage={"/image/image-removebg-preview(2).png"}/>
+      <Box textAlign="center" fontSize="xl" backgroundColor={"#FFFFF0"} textColor={"black"} width={"100%"} minHeight={"100vh"} pt={20}>
+        <Rubrique title={"LES COMPÉTENCES"} color={"#1FA055"} srcImage={"/image/image-removebg-preview(2).png"}/>
         <Flex justifyContent={"center"} alignItems={"center"} py={10} flexDir={"column"} width={"100%"}>
           <Box  width={"60%"} px={20} >
             <Slider {...settings}>

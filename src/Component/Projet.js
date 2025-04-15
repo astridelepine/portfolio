@@ -20,8 +20,8 @@ import Rubrique from './Rubrique';
 const Projet= () => {
   return (
     
-      <Box textAlign="center" fontSize="xl" backgroundColor={"#1d1d1d"} width={"100%"} minHeight={"100vh"} pt={20}>
-        <Rubrique srcImage={'/image/image-removebg-preview(4).png'} title={"MES PROJETS"} color={"#f5ffc5"}/>
+      <Box textAlign="center" fontSize="xl" backgroundColor={"#FFFFF0"} width={"100%"} minHeight={"100vh"} pt={20}>
+        <Rubrique srcImage={'/image/image-removebg-preview(4).png'} title={"MES PROJETS"} color={"#FFA500"}/>
         <Flex width={"100%"} justifyContent={"center"}>
           <SimpleGrid  columns={[3]} spacing={20} width={"80%"} px={20} pt={24}>
             <ProjetCard nom={"Foirauxhistoires"} desc={"Création d'histoires de manière collaborative."} techno={"JS, HTML, CSS, FastAPI, SQLite"} image={"/image/foireauxhistoires.png"}/>
