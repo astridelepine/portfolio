@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   ChakraProvider,
   Box,
@@ -10,30 +10,42 @@ import {
   Flex,
   Image,
   SimpleGrid,
-} from '@chakra-ui/react';
-import {ArrowBackIcon} from '@chakra-ui/icons';
-import ProjetCard from './ProjetCard';
-import { Link } from 'react-router-dom';
+} from "@chakra-ui/react";
+import { ArrowBackIcon } from "@chakra-ui/icons";
+import ProjetCard from "./ProjetCard";
+import { Link } from "react-router-dom";
 import "../style.css";
 
-const Rubrique = ({color, srcImage, title}) =>{
-    return(
-        <Flex alignItems={"center"} width={"100%"} justifyContent={"flex-start"} pl={50}>
-          <Link to={"/"} >
-              <Box  display={"flex"} alignItems={"center"} justifyContent={"center"} width={28} height={"fit-content"} pos={"relative"}>
-                <Box height={28}>
-                  <Image src={srcImage} />
-                </Box>
-                <Flex pos={"absolute"} alignItems={"center"} pb={2}>
-                  <ArrowBackIcon color="black"/>
-                </Flex>
-              </Box> 
-          </Link>
-          <Text fontSize={"3xl"} fontFamily={"Playwrite"} textColor={color} >{title}</Text>
-        </Flex>
-    )
+const Rubrique = ({ color, srcImage, title }) => {
+  return (
+    <Flex
+      alignItems={"center"}
+      width={"100%"}
+      justifyContent={"flex-start"}
+      pl={50}
+    >
+      <Link to={"/"}>
+        <Box
+          display={"flex"}
+          alignItems={"center"}
+          justifyContent={"center"}
+          width={28}
+          height={"fit-content"}
+          pos={"relative"}
+        >
+          <Box height={28}>
+            <Image src={srcImage} />
+          </Box>
+          <Flex pos={"absolute"} alignItems={"center"} pb={2}>
+            <ArrowBackIcon color="black" />
+          </Flex>
+        </Box>
+      </Link>
+      <Text fontSize={"3xl"} fontFamily={"Playwrite"} textColor={color}>
+        {title}
+      </Text>
+    </Flex>
+  );
+};
 
-}
-
-export default Rubrique
-        
+export default Rubrique;
