@@ -31,7 +31,7 @@ const ProjetCard = ({ image, nom, desc, techno }) => {
         flexDir={"column"}
         justifyContent={"center"}
         pos={"absolute"}
-        backgroundColor={"rgb(255,201,94,0.8)"}
+        backgroundColor={"rgb(255,201,94)"}
         width={"100%"}
         height={"100%"}
         px={2}
