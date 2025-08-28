@@ -69,6 +69,13 @@ bénéficier de conseils personnalisés pour améliorer leur pratique.</Text>
         </TabList>
         <TabPanels minHeight="520px">
             <TabPanel>
+            <Flex gap={2} flexWrap="wrap" mb={4} justifyContent="center">
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Analyse du besoin</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Documentation</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Programmation Python</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Programmation Odoo</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Algorithmie</Box>
+            </Flex>
             <Text textAlign="justify">Travailler sur un ERP aussi structuré qu’Open-Prod m’a confronté à des besoins fonctionnels concrets, exprimés directement par les utilisateurs finaux. Cela m’a appris à analyser précisément une demande, à identifier les contraintes métier et à mettre en place des solutions tout en respectant l’architecture existante. Chaque développement devait s’intégrer proprement sans impacter les fonctionnalités déjà en place, ce qui m’a sensibilisé à l’importance de la compatibilité ascendante et de la non-régression.
 Le développement des modules m’a amené à manipuler des structures de données complexes et à implémenter des logiques métiers spécifiques, souvent en lien avec des processus industriels ou logistiques. J’ai ainsi renforcé ma capacité à concevoir des algorithmes robustes, à optimiser leur performance, et à prendre en compte la maintenabilité du code dans mes choix d’implémentation. Par exemple, lors du traitement de données massives (commandes, produits, nomenclatures), j’ai dû veiller à ce que les boucles et conditions soient les plus efficaces possible.	
 J’ai appris à porter une attention particulière à la qualité du code produit, aussi bien en termes de lisibilité que de structure. Mon tuteur m’a sensibilisée aux bonnes pratiques de développement : respect des conventions, commentaires pertinents, nommage explicite, modularité du code, etc. La documentation était aussi un aspect important : j’ai documenté certaines méthodes afin de faciliter leur compréhension et leur reprise par d’autres développeurs. 	
@@ -76,6 +83,12 @@ Open-Prod reposant sur un socle technique basé sur Python et PostgreSQL, j’ai
 </Text>
             </TabPanel>
             <TabPanel>
+            <Flex gap={2} flexWrap="wrap" mb={4} justifyContent="center">
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Méthodes de raisonnement</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Optimisation algorithmiques</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Modélisation</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Structures de données</Box>
+            </Flex>
             <Text textAlign="justify">Tout au long de l’année j’ai été amenée à travailler sur des développements où la performance et la fiabilité étaient essentielles. Dans un logiciel comme Open-Prod, chaque fonctionnalité touche directement des processus de production et de gestion critiques. Il était donc indispensable de proposer des solutions optimisées, à la fois en termes de rapidité, de précision et de consommation de ressources.
 Les demandes des clients concernaient souvent des situations métiers complexes (gestion des stocks, production, suivi logistique). J’ai appris à m’approprié le sujet en schématisant les structures de données et le l’enchainement des fonctionnalités.  Cette étape de modélisation était essentielle pour simplifier des problématiques parfois abstraites, car elle concernait des aspect métiers très spécifique, et pouvoir les traiter efficacement dans le code.	
 Dans mes développements, j’ai dû faire appel à des algorithmes classiques comme parcours de listes, recherches, tris, agrégations de données, et choisir les structures de données appropriées (dictionnaires, listes, modèle permanent ou modèle temporaire etc). Par exemple, dans certains modules, j’ai optimisé l’accès aux données en utilisant des dictionnaires Python plutôt que des listes, afin de réduire le temps de recherche. J’ai appris à privilégier les fonction mapped() et filtered() plutôt que des boucles python qui peuvent être moins optimiser. J’ai également appris à utiliser la fonction write() sur les objets plutôt que de manipuler les records individuellement et permet de faire une seul requête SQL au lieu de N. J’ai optimiser certaines boucles python en évitant de mettre des .search() ou .browse() à l’intérieur car ces fonction peuvent vite consommer des ressources et ralentir le temps d’exécution. Cette expérience m’a permis de comprendre l’impact direct des choix algorithmiques sur les performances globales d’une application.	
@@ -89,17 +102,35 @@ Lors des revues de codes avec mon tuteur j’ai pu obtenir et apporter un regard
 </Text>
             </TabPanel>
             <TabPanel>
-            <Text textAlign="justify">L’alternance m’a permis de comprendre qu’au-delà des compétences techniques, la réussite d’un projet dépend aussi beaucoup de la collaboration entre les différents acteurs impliqués. J’ai ainsi acquis et développé des aptitudes essentielles pour travailler efficacement au sein d’une équipe pluridisciplinaire.	
-Au sein de Capsys, j’ai été amenée à collaborer avec d’autres développeurs, et des consultants fonctionnels. Chaque profil a des objectifs et des contraintes spécifiques (techniques, organisationnelles, métiers), j’ai alors appris à vulgariser mes contraintes en fonction de la personne à qui je m’adressais, mais aussi à écouter les retours sur le travail que j’avais livré et à adapter et proposer des solutions pour répondre aux problèmes auxquels on me faisait part.	
-Mes missions ne se sont pas limitées uniquement au pas au développement. J’ai eu l’occasion de rédiger des documentations techniques pour pouvoir partager et explique certaines fonctionnalités que j’ai développé plus facilement et permettre à d’autres personnes de comprendre et reprendre le développement des fonctionnalités plus aisément.
-Cette expérience m’a également permis de progresser en communication professionnelle. Je devais régulièrement rendre compte de mon avancement à mon tuteur et j’ai appris à ne pas hésiter à demander de l’aide quand j’en avais besoin, ou encore commenté clairement mon code pour qu’il soit plus lisible par les autres développeurs. J’ai également pu collaborer avec l’autre alternant en partageant les méthodes dont nous avons pu nous servir dans le code et les différentes fonctionnalités que nous avons développer ou exploiter, afin de s’entraider et d’avoir un aperçu de ce que l’autre faisait.	
-A travers cette expérience j’ai donc pu comprendre l’importance de la communication au sein d’une entreprise et entre l’entreprise et les clients. En effet je même si je n’étais pas directement en lien avec les clients j’ai pu observer à travers les consultants fonctionnels à quel point il était important d’avoir une bonne relation et communication avec les clients pour porter à bien un projet. J’étais d’ailleurs directement impacter lorsque la communication ne s’effectuais en devant reprendre à plusieurs reprises certains développements car le client n’avait pas communiqué clairement l’ensemble de ses besoins
-.</Text>
+                <Flex gap={2} flexWrap="wrap" mb={4} justifyContent="center">
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Travail en équipe</Box>
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Partage de connaissances</Box>
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Rédaction de documentation</Box>
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Vulgarisation technique</Box>
+                </Flex>
+                <Text textAlign="justify">L’alternance m’a permis de comprendre qu’au-delà des compétences techniques, la réussite d’un projet dépend aussi beaucoup de la collaboration entre les différents acteurs impliqués. J’ai ainsi acquis et développé des aptitudes essentielles pour travailler efficacement au sein d’une équipe pluridisciplinaire.	
+                    Au sein de Capsys, j’ai été amenée à collaborer avec d’autres développeurs, et des consultants fonctionnels. Chaque profil a des objectifs et des contraintes spécifiques (techniques, organisationnelles, métiers), j’ai alors appris à vulgariser mes contraintes en fonction de la personne à qui je m’adressais, mais aussi à écouter les retours sur le travail que j’avais livré et à adapter et proposer des solutions pour répondre aux problèmes auxquels on me faisait part.	
+                    Mes missions ne se sont pas limitées uniquement au pas au développement. J’ai eu l’occasion de rédiger des documentations techniques pour pouvoir partager et explique certaines fonctionnalités que j’ai développé plus facilement et permettre à d’autres personnes de comprendre et reprendre le développement des fonctionnalités plus aisément.
+                    Cette expérience m’a également permis de progresser en communication professionnelle. Je devais régulièrement rendre compte de mon avancement à mon tuteur et j’ai appris à ne pas hésiter à demander de l’aide quand j’en avais besoin, ou encore commenté clairement mon code pour qu’il soit plus lisible par les autres développeurs. J’ai également pu collaborer avec l’autre alternant en partageant les méthodes dont nous avons pu nous servir dans le code et les différentes fonctionnalités que nous avons développer ou exploiter, afin de s’entraider et d’avoir un aperçu de ce que l’autre faisait.	
+                    A travers cette expérience j’ai donc pu comprendre l’importance de la communication au sein d’une entreprise et entre l’entreprise et les clients. En effet je même si je n’étais pas directement en lien avec les clients j’ai pu observer à travers les consultants fonctionnels à quel point il était important d’avoir une bonne relation et communication avec les clients pour porter à bien un projet. J’étais d’ailleurs directement impacter lorsque la communication ne s’effectuais en devant reprendre à plusieurs reprises certains développements car le client n’avait pas communiqué clairement l’ensemble de ses besoins.
+                </Text>
             </TabPanel>
             <TabPanel>
+                <Flex gap={2} flexWrap="wrap" mb={4} justifyContent="center">
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Respect des bonnes pratiques d’architecture</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Respect des conventions de nommage</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Tests et validation</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Gestion des risques de régression</Box>
+                <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">maintenance applicative</Box>
+
+            </Flex>
             <Text textAlign="justify">Lors de chaque développement je devais veiller à respecter les bonnes pratiques d’architectures mise en place par l’éditeur et aux conventions de nommage qui ont été convenues au sein de l’entreprise. Pour cela j’avais accès à un document rédigé par l’éditeur qui recensait toutes les bonnes pratiques. J’ai alors compris que les normes garantissent à la fois la pérennité, la maintenabilité et la sécurité de l’ensemble de l’application. Aussi je devais veiller à ce que les fonctionnalités que je développais et que j’intégrais à l’ERP ne dégradent pas son fonctionnement et ses performances. Une rupture de fonctionnement au sein de l’ERP pouvait perturber l’activité de nos clients. J’ai alors appris à tester soigneusement les développements avant mise en production, à anticiper les risques de régression et à mettre en place des solutions correctives rapidement en cas d’incident.</Text>
             </TabPanel>
             <TabPanel>
+                <Flex gap={2} flexWrap="wrap" mb={4} justifyContent="center">
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Gestion et cohérence des données</Box>
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Exploitation des données</Box>
+                </Flex>
                 <Text textAlign="justify">
                     Open-Prod étant un ERP centré sur la gestion de données (commandes, stocks, production, logistique, suivi clients, etc.), mon alternance m’a permis de développer des compétences solides autour de la manipulation, de la cohérence et de l’exploitation des données. J’ai compris que la donnée est au cœur du pilotage d’une organisation, et qu’elle doit être fiable, et exploitable.	
 J’ai à optimiser les requêtes pour ne pas surcharger le système, et structurer les modèles avec les données essentielles afin d’éviter de le surcharger avec des données inutiles. Cela permet de réduire l’impact énergétique du stockage mais aussi de garantir une exploitation plus rapide et plus efficace des données.	
@@ -108,6 +139,10 @@ Les fonctionnalités que je développais générais ou modifiais des données je
                 </Text>
             </TabPanel>
             <TabPanel>
+                <Flex gap={2} flexWrap="wrap" mb={4} justifyContent="center">
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Gestion logistique</Box>
+                    <Box px={3} py={1} bg="#e6f7ff" color="#0077b6" borderRadius="full" fontSize="sm" fontWeight="bold">Integrer du vocabulaire technique</Box>
+                </Flex>
                 <Text textAlign="justify">
                     Grace a cette alternance j’ai également pu être confronter à toutes les contraintes logistiques auxquelles doivent faire face une entreprise avec des procédés industriels comme la gestion des achats/ventes/stocks/productions. 
 Je me suis construit un regard plus aiguisé sur toute la logique des flux de travail et j’ai également acquis des notions plus comptables avec la gestion des comptes clients et fournisseurs, ainsi que les notions de taxes qui varies entre les pays et les types de produits et de plus valus en faisant des calcule de prix selon des contraintes métiers.

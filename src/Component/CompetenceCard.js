@@ -22,6 +22,7 @@ const CompetenceCard = ({
   op1,
   op2,
   op3,
+  op4,
   descNiv,
   projets,
 }) => {
@@ -50,8 +51,8 @@ const CompetenceCard = ({
       <Flex justifyContent={"space-between"} px={56} py={5}>
         <Image src={"/image/fleur11.png"} width={"30%"} opacity={op1} />
         <Image src={"/image/fleur11.png"} width={"30%"} opacity={op2} />
-        <Image src={"/image/fleur11.png"} width={"30%"} opacity={op2} />
         <Image src={"/image/fleur11.png"} width={"30%"} opacity={op3} />
+        <Image src={"/image/fleur11.png"} width={"30%"} opacity={op4} />
       </Flex>
       <Text fontSize={"md"}>{descNiv}</Text>
       <Box py={5}>

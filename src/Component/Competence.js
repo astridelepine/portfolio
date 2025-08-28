@@ -103,11 +103,12 @@ const Competence = () => {
               }
               op1={1}
               op2={1}
-              op3={0.5}
+              op3={1}
+              op4={0.5}
               descNiv={
-                "Je sais développer des applications accessibles, ergonomiques et robustes (à l'aide de tests) au vu des spécifications définies à partir du besoin du client. Je n'ai pas encore eu l'occasion de maintenir une application"
+                "Je sais développer des applications accessibles, ergonomiques et robustes (à l'aide de tests) au vu des spécifications définies à partir du besoin du client. J'ai également maintenu une application existante à travers la SAE du S6."
               }
-              projets={"Foirauxhistoires, Pathfinder, Portfolio L'Annuaire"}
+              projets={"Foirauxhistoires, Pathfinder, Portfolio L'Annuaire, SAE RAMSES12"}
             />
             <CompetenceCard
               title={"C2 - Optimiser"}
@@ -116,11 +117,12 @@ const Competence = () => {
               }
               op1={1}
               op2={1}
-              op3={0.5}
+              op3={1}
+              op4={0.5}
               descNiv={
-                "Je sais sélectionner un algorithme adéquats pour répondre à un problème donné"
+                "Je sais sélectionner un algorithme et strucure de données adéquat pour répondre à un problème donné, tout en respectant le langage imposé et en optimisant les ressources et le temps de calucl. "
               }
-              projets={"Pathfinder, Annuaire"}
+              projets={"Pathfinder, Annuaire, SAE Platine"}
             />
             <CompetenceCard
               title={"C3 - Administrer"}
@@ -130,6 +132,8 @@ const Competence = () => {
               op1={1}
               op2={1}
               op3={0.5}
+              op4={0.5}
+
               descNiv={
                 "Je suis en capacité de déployer des serveurs web Apache sous Linux, et de créer des liaisons TCP et UDP"
               }
@@ -142,11 +146,12 @@ const Competence = () => {
               }
               op1={1}
               op2={1}
-              op3={0.5}
+              op3={1}
+              op4={0.5}
               descNiv={
-                "Je suis capable concevoir des bases de données relationnelles et non-relationnelles, mais également les interroger, et en tirer des données"
+                "Je suis capable concevoir et de maintenir des bases de données relationnelles et non-relationnelles, mais également les interroger, et en tirer des données. Je suis aussi en mesure d'assurer sécurité, la cohérence et l'intégrité d'une BD et de choisir le type de BD adapté au besoin."
               }
-              projets={"Foirauxhistoire, secretSanta,"}
+              projets={"Foirauxhistoire, secretSanta, SAE Platine"}
             />
             <CompetenceCard
               title={"C5 - Construire"}
@@ -155,7 +160,8 @@ const Competence = () => {
               }
               op1={1}
               op2={1}
-              op3={0.5}
+              op3={1}
+              op4={0.5}
               descNiv={
                 "Je sais appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs"
               }
@@ -171,8 +177,9 @@ const Competence = () => {
               op1={1}
               op2={1}
               op3={1}
+              op4={1}
               descNiv={
-                "Je sais situé mon role et mes mission au sein d'une équipe informatique. Je suis également capable de gérer une petite équipe sur un projet"
+                "Je sais situé mon role et mes missions au sein d'une équipe informatique. Je suis également capable de gérer une petite équipe sur un projet. Partager mes connaissances et les informations au sein d'une équipe, et communiquer efficacement."
               }
               projets={"Foireauxhistoires, Platine, CodeName"}
             />
